@@ -1,6 +1,6 @@
 class ItemsController < ApplicationController
 
     def index
-        render json: Item.all, include: :user, status: :ok
+        render json: Item.all, status: :ok
     end
 end
